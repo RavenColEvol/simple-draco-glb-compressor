@@ -5,7 +5,7 @@
   "main": "dist/bundle.js",
   "types": "dist/bundle.d.ts",
   "scripts": {
-    "build": "tsc-bundle tsconfig.json",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,7 +21,6 @@
     "@types/draco3dgltf": "^1.4.1",
     "@types/node": "^20.8.2",
     "tslib": "^2.6.2",
-    "typescript": "^5.2.2",
-    "typescript-bundle": "^1.0.18"
+    "typescript": "^5.2.2"
   }
 }

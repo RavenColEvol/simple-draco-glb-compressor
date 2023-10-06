@@ -1,4 +1,4 @@
-import { compressGLB } from './index';
+import { compressGLB } from './dist/index.js';
 import fs from 'fs';
 
 (async () => {

@@ -1,16 +1,10 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "module": "ES2015",
-    "target": "ES2015",
+    "module": "CommonJS",
+    "target": "ES2019",
     "declaration": true,
-    "sourceMap": true,
-    "outDir": "dist",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "outDir": "./dist"
   },
   "include": ["index.ts"],
   "exclude": [
